@@ -3,8 +3,12 @@ jQuery(function(){
 	initMobileNav();
 	initMenu();
 	initScroll();
+  initAnimate();
 });
 
+function initAnimate(){
+  AOS.init();
+}
 
 function initScroll(){
 	$(function() {
